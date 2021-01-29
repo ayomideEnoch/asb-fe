@@ -1,0 +1,33 @@
+@font-face {
+  font-family: ProductSans-Bold;
+  src: url('/src/fonts/Google-sans-Font-Family/ProductSans-Bold.ttf')
+}
+@font-face {
+  font-family: ProductSans-Light;
+  src: url('/src/fonts/Google-sans-Font-Family/ProductSans-Light.ttf')
+}
+@font-face {
+  font-family: DMSans-Regular;
+  src: url('/src/fonts/DM_Sans/DMSans-Regular.ttf')
+}
+.MuiTable-root {
+  background: #F3F6F9 !important;
+}
+.MuiTableCell-head {
+  text-transform: uppercase;
+  font-family: DMSans-Regular !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  color: #899198 !important;
+}
+.MuiTableCell-body {
+  text-transform: capitalize;
+  font-family: DMSans-Regular !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  color: #25213B !important;
+}

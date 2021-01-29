@@ -1,0 +1,103 @@
+@font-face {
+  font-family: ProductSans-Bold;
+  src: url('/src/fonts/Google-sans-Font-Family/ProductSans-Bold.ttf')
+}
+@font-face {
+  font-family: ProductSans-Light;
+  src: url('/src/fonts/Google-sans-Font-Family/ProductSans-Light.ttf')
+}
+@font-face {
+  font-family: DMSans-Regular;
+  src: url('/src/fonts/DM_Sans/DMSans-Regular.ttf')
+}
+.TopNav {
+  padding-top: 1em;
+}
+.float-left, .float-right {
+  display: flex;
+}
+.icon {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+.icon a {
+  color: #000000;
+  text-decoration: none;
+  font-family: ProductSans-Bold;
+}
+.TopNav h1 {
+  font-family: ProductSans-Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: none;
+  margin-right: 1em;
+} 
+.link {
+  color: #778699;
+}
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+h1.active {
+  color: #006FD6;
+}
+a {
+  text-decoration: none !important;
+}
+.TopNav img {
+  width: 32px;
+  height: 27.05px;
+  background: url(./assets/images/fe-logo.svg);
+  margin-left: 0.5em;
+}
+img.img2 {
+  width: 12.8px;
+  height: 12.8px;
+  background: url(./assets/images/Shape2.jpg);
+}
+img.img3 {
+  width: 12.8px;
+  height: 11.73px;
+  background: url(./assets/images/Shape.png);
+}
+img.img4 {
+  width: 16px;
+  height: 16px;
+  background: url(./assets/images/Opportunitiy.png);
+}
+.TopNav h2 {
+  font-family: DMSans-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #778699;
+} 
+h1.active {
+  background: #DEEFFF;
+}
+.form-control {
+  background: #FFFFFF;
+  border: 1px solid #DCE1E7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: -0.2em;
+}
+img.img5 {
+  width: 16px;
+  height: 16px;
+  background: url(./assets/images/Shape3.png);
+}img.img6 {
+  width: 16px;
+  height: 16px;
+  background: url(./assets/images/Customers.png);
+}img.img7 {
+  width: 11.26px;
+  height: 6.72px;
+  background: url(./assets/images/Path.png);
+  margin-right: 1.2em;
+}
